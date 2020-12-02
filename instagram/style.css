@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'calibri';
+    font-size: 14px;
+}
+
+body{
+    width:100%;
+    min-height: 100vh;
+    background-color:rgb(250, 250, 250);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.tela-inicial{
+    flex-direction: column;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 40%;
+    height: 85vh;
+
+}
+.img-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img-phone img{
+    width: 375px;
+    height: 592px;
+}
+.login{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    flex-direction: column;
+}
+.group{
+    margin: 5px;    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width:100%;
+    
+}
+.group:nth-child(1){
+    
+    border: 1px solid lightgray ;
+    min-width: 350px;
+    min-height: 380px;
+}
+.logo-escrito{
+    margin: 10px;
+    width: 175px;
+    height: 51;
+}
+.login-user{
+    color:rgb(148, 148, 148) ;
+    padding: 11px;
+    background-color:rgb(250, 250, 250);
+    border: 1px solid lightgray;
+    width: 268px;
+    height: 38px;
+    font-size: 12px;
+
+}
+.login-senha{
+    color:rgb(148, 148, 148) ;
+    padding: 11px;
+    background-color:rgb(250, 250, 250);
+    border: 1px solid lightgray;
+    width: 268px;
+    height: 38px;
+    font-size: 12px;
+}
+.login-entrar{
+    padding: 6px;
+    color: #ffffff;
+    text-align: center;    
+    font-size: 14px;
+    background-color:rgb(178, 223, 252);
+    width: 268px;
+    height: 30px;
+
+}
+.opcao{
+    display: flex;
+}
+.borda{
+    
+}
+.ou{
+    font-size: 16px;
+    color:rgb(148, 148, 148) ;
+}
+.esqueceu-senha{
+    color:rgb(0, 55 ,107) ;
+    font-size: 12px;
+}
+.group:nth-child(2){
+    padding:12 px ;
+    border: 1px solid lightgray ;
+    min-width: 350px;
+    min-height: 63px;
+}
+.cadastre-se{
+    color: rgb(0, 149, 246);
+}
+.group:nth-child(3){   
+    background-color:rgb(250, 250, 250);
+}
+.dowload-app{
+    margin: 10px;
+}
+.download{
+    display: flex;
+  }
+.app-download{
+    margin: 5px;
+    width: 136px;
+    height: 44px;
+}
+.app-download:nth-child(1){
+    
+    background-image:url('./img/applestore.png');
+    ;
+}
+.app-download:nth-child(2){
+    background-image: url('./img/playstore.png');
+   
+}
+.outros-links{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: px;
+}
+
+.link{
+    color:rgb(148, 148, 148) ;
+    margin : 6px;
+    font-size: 14px;
+}
+.idioma{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: px;
+}
+
+
+/*media queries*/
+@media (max-width:1024px){
+    .instagram{
+        width: 90%;
+    }
+}
+@media (max-width:650px){
+    .instagram{
+        width: 90%;
+    }
+    .img-phone {
+        display: none;
+    }
+    
+}
